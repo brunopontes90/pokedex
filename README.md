@@ -4,3 +4,5 @@
     . git commit -m "..."
     . git push origin master
     . npm run deploy
+
+- Api utilizada no projeto: https://pokeapi.co/
