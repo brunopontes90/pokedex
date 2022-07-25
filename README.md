@@ -6,3 +6,4 @@
     . npm run deploy
 
 - Api utilizada no projeto: https://pokeapi.co/
+- Link para pagina de hospedageme do githubpages: https://brunopontes90.github.io/pokedex/
