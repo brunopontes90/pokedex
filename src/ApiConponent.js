@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Compenents/Header/Header";
+import Home from "./Pages/Home";
 
 function ApiConponent() {
 
   const [apiPokemon, setApiPokemon] = useState([]);
+  const [abilities, setAbilities] = useState([]);
 
   useEffect(() => {
     fetch('https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0')
@@ -11,12 +12,18 @@ function ApiConponent() {
       .then(data => setApiPokemon(data.results));
   }, []);
 
+  useEffect(() => {
+    fetch('https://pokeapi.co/api/v2/pokemon/1/')
+      .then(res => res.json())
+      .then(data => setAbilities(data.abilities));
+  }, []);
 
   return (
-    <Header
+    <Home
       apiPokemon={apiPokemon}
+      abilities={abilities}
     />
-  )
+  );
 
 }
 
