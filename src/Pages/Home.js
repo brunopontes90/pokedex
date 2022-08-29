@@ -3,7 +3,7 @@ import React from "react";
 function Home(props) {
     const { apiPokemon, abilities } = props;
 
-    console.log(apiPokemon)
+    //console.log(apiPokemon)
 
     return (
         <div>
