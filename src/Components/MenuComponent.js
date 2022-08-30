@@ -1,30 +1,22 @@
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
+import "./MenuComponent.scss";
 
-function MenuComponent() {
+function MenuComponent(props) {
+    const {pokemon} = props
+    //console.log(pokemon)
     return (
-        <Menu mode="horizontal">
-            <Menu.Item key="mail" icon={<MailOutlined />}>
-                Navigation One
+        <Menu mode="horizontal" className='menu'>
+            <Menu.Item key="mail">
+                <Link to="/pokedex">Home</Link>
             </Menu.Item>
-            <Menu.Item key="two" icon={<MailOutlined />}>
-                Navigation Two
-            </Menu.Item>
-            <Menu.SubMenu key="SubMenu" title="Navigation Two - Submenu" icon={<SettingOutlined />}>
-                <Menu.Item key="two" icon={<AppstoreOutlined />}>
-                    1º Geração
+            <Menu.SubMenu key="SubMenu" title="Gerações de Pokemon">
+                <Menu.Item key="two">
+                    <Link to={"/gemone"}>1º Geração</Link>
                 </Menu.Item>
-                <Menu.Item key="three" icon={<AppstoreOutlined />}>
-                    2º Geração
+                <Menu.Item key="three">
+                    <Link to={"/gemtwo"}>2º Geração</Link>
                 </Menu.Item>
-                <Menu.ItemGroup title="Item Group">
-                    <Menu.Item key="four" icon={<AppstoreOutlined />}>
-                        Navigation Four
-                    </Menu.Item>
-                    <Menu.Item key="five" icon={<AppstoreOutlined />}>
-                        Navigation Five
-                    </Menu.Item>
-                </Menu.ItemGroup>
             </Menu.SubMenu>
         </Menu>
     );

@@ -4,7 +4,7 @@ function Pokedex() {
   return (
     [{
       "id": 1,
-      "img": "https://toppng.com/uploads/preview/okemon-images-of-bulbasaur-11563235418y7uj9gzjgg.png",
+      "img": "https://thumbs.gfycat.com/ElaborateOldCygnet-max-1mb.gif",
       "name": {
         "english": "Bulbasaur",
         "japanese": "フシギダネ",
@@ -26,7 +26,7 @@ function Pokedex() {
     },
     {
       "id": 2,
-      "img": "https://www.pngfind.com/pngs/m/142-1428059_ivysaur-png-transparent-png.png",
+      "img": "https://gifs.eco.br/wp-content/uploads/2022/04/gifs-do-ivysaur-1.gif",
       "name": {
         "english": "Ivysaur",
         "japanese": "フシギソウ",
@@ -48,6 +48,7 @@ function Pokedex() {
     },
     {
       "id": 3,
+      "img": "https://i.pinimg.com/originals/bd/f7/63/bdf763ebd5d86133a3a53497f006dab4.gif",
       "name": {
         "english": "Venusaur",
         "japanese": "フシギバナ",
@@ -69,6 +70,7 @@ function Pokedex() {
     },
     {
       "id": 4,
+      "img": "https://pokemongoinfo.netlify.app/charmander.gif",
       "name": {
         "english": "Charmander",
         "japanese": "ヒトカゲ",
@@ -89,6 +91,7 @@ function Pokedex() {
     },
     {
       "id": 5,
+      "img": "https://1.bp.blogspot.com/-_TRFfGklzGM/YGhXXXRL6WI/AAAAAAAAVO8/ep2dRYIDDqI79Vje2C8YxMHNcxiqqb3SACLcBGAsYHQ/s0/Charmeleon.gif",
       "name": {
         "english": "Charmeleon",
         "japanese": "リザード",
@@ -109,6 +112,7 @@ function Pokedex() {
     },
     {
       "id": 6,
+      "img": "https://1.bp.blogspot.com/-AFTQs9XdE1E/YGhh060IA0I/AAAAAAAAVPI/UlABIHCfRtkpsefma4OhYlegjgEXSdt7ACLcBGAsYHQ/s0/Charizard.gif",
       "name": {
         "english": "Charizard",
         "japanese": "リザードン",
@@ -150,6 +154,7 @@ function Pokedex() {
     },
     {
       "id": 8,
+      "img": "https://1.bp.blogspot.com/-a010P6CYRP4/YGhpHjMpnQI/AAAAAAAAVPs/oH1iTUT-IKwjETIH0hC1uajoGZE9YQr-ACLcBGAsYHQ/s0/Wartortle.gif",
       "name": {
         "english": "Wartortle",
         "japanese": "カメール",
@@ -170,6 +175,7 @@ function Pokedex() {
     },
     {
       "id": 9,
+      "img": "https://i.pinimg.com/originals/f5/7f/51/f57f5132369b8446d4d2588ebb307137.gif",
       "name": {
         "english": "Blastoise",
         "japanese": "カメックス",
@@ -2256,6 +2262,7 @@ function Pokedex() {
     },
     {
       "id": 111,
+      "img": "https://i.pinimg.com/originals/cd/f2/1e/cdf21efd947128353dc6fc03b9359b8c.gif",
       "name": {
         "english": "Rhyhorn",
         "japanese": "サイホーン",
