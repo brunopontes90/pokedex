@@ -20,9 +20,9 @@ function App() {
   return (
     <PokemonContext.Provider value={listPokemon}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/kanto" element={<Kanto />} />
-        <Route path="/johto" element={<Johto />} />
+        <Route path="/pokedex" element={<Home />} />
+        <Route path="/pokedex/kanto" element={<Kanto />} />
+        <Route path="/pokedex/johto" element={<Johto />} />
       </Routes>
     </PokemonContext.Provider>
   );

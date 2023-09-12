@@ -9,15 +9,15 @@ function Menu() {
                     <div id="navBarButton" className="collapse navbar-collapse">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item active">
-                                <Link to="/" className="nav-link text-muted font-weight-bold">Inicio</Link>
+                                <Link to="/pokedex" className="nav-link text-muted font-weight-bold">Inicio</Link>
                             </li>
                             <div className="dropdown">
                                 <Link type="button" className="nav-link text-muted font-weight-bold" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Gerações
                                 </Link>
                                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/kanto">Kanto</Link>
-                                    <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/johto">Johto</Link>
+                                    <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/pokedex/kanto">Kanto</Link>
+                                    <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/pokedex/johto">Johto</Link>
                                     <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/#">Hoen</Link>
                                     <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/#">Sinnoh</Link>
                                     <Link className="dropdown-item nav-link text-muted font-weight-bold text-center" to="/#">Unova</Link>
