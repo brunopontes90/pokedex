@@ -1,0 +1,39 @@
+:root {
+    --black: #000000;
+    --red: #FF0000;
+    --gray: #A4A4A4;
+    --yellow: #F7FE2E;
+}
+
+
+#menu-header {
+    box-shadow: 2px 2px 2px 1px var(--gray);
+}
+
+.img-logo {
+    padding: 0px;
+    width: 300px;
+    height: 120px;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#dropdown-list {
+    box-shadow: 10px 5px 5px var(--gray);
+}
+
+.nav-link {
+    font-size: 14pt;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--yellow);
+}
